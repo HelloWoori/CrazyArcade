@@ -23,7 +23,7 @@ Left Shift: 물풍선 놓기
  Right Shift: 물풍선 놓기  
  
 ## 시연영상 (Click!)
-[![Video Label](https://i.ytimg.com/vi/HwBAzOAYNjk/maxresdefault.jpg)](https://youtu.be/ru1RxTmAlMQ)  
+[![Video Label](https://i.ytimg.com/vi/HwBAzOAYNjk/maxresdefault.jpg)](https://youtu.be/HwBAzOAYNjk)  
 
 ## 스크린샷
 ![images.png](https://github.com/HelloWoori/CrazyArcade/blob/master/Screenshot/images.png)  
