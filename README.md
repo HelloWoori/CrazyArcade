@@ -1,4 +1,5 @@
 # CrazyArcade
+![desc.png](https://github.com/HelloWoori/CrazyArcade/blob/master/Screenshot/desc.png)
 - C/C++, WinAPI를 활용한 크레이지아케이드 모작
 - OS: Windows 10
 - IDE: Visual Studio 2017
@@ -21,5 +22,8 @@ Left Shift: 물풍선 놓기
  ↑, ↓, ←, → 방향키: 상하좌우키  
  Right Shift: 물풍선 놓기  
  
+## 시연영상 (Click!)
+[![Video Label](https://i.ytimg.com/vi/HwBAzOAYNjk/maxresdefault.jpg)](https://youtu.be/ru1RxTmAlMQ)  
+
 ## 스크린샷
 ![images.png](https://github.com/HelloWoori/CrazyArcade/blob/master/Screenshot/images.png)  
