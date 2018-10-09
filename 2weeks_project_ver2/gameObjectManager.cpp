@@ -43,9 +43,9 @@ void GameObjectManager::removeObjAll()
 
 void GameObjectManager::updateObj()
 {
-    for (size_t i = 0; i < _gameObj.size(); ++i)
+    for (auto g : _gameObj)
     {
-        _gameObj[i]->update();
+        g->update();
     }
 
     if (GAMESTATEMANAGER->getGameStart())
@@ -220,9 +220,10 @@ void GameObjectManager::notifyCollisions()
 	/*풍선이 물줄기에 닿으면 바로 터지게끔!!!*/
 	for (auto bomb : m[GameObjectTag::Bomb])
 	{
+        Bomb* b = dynamic_cast<Bomb*>(bomb);
+
 		for (auto wave : m[GameObjectTag::Wave])
 		{
-			Bomb* b = dynamic_cast<Bomb*>(bomb);
 			Wave* w = dynamic_cast<Wave*>(wave);
 			RECT bombRect = makeRect(b->getStartX(), b->getStartY(), b->getSize(), b->getSize());
 			RECT waveRect = makeRect(w->getStartX(), w->getStartY(), w->getSize(), w->getSize());
